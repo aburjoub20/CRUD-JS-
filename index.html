@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="font-awesome.css"> -->
+
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: block;">
+       <label>Name</label>
+       <input style="display: block;" type="text" id="name" >
+       <!-- <label>id</label>
+
+       <input style="display: block;" type="text" id="id" > -->
+       <label>Cost</label>
+
+       <input style="display: block;" type="text" id="cost" >
+       <label>search</label>
+       <input style="display: block; width: 100%;" onkeyup="search()" type="text" id="searchitems" >
+
+       <button onclick="add()">add</button>
+       <button onclick="cl()">clear</button>
+
+
+    </div>
+    <table  border="1">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Name</td>
+                <td>Cost</td>
+                <td>update</td>
+                <td>delete</td>
+
+
+            </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+    </table>
+    <script src="app.js"></script>
+
+</body>
+</html>
